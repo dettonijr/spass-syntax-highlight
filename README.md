@@ -9,4 +9,5 @@ The formal definition of the grammar can be found at (http://www.spass-prover.or
 
 - Copy "dfg.vim" to "~/.vim/syntax/dfg.vim"
 - Add the following line to "~/.vim/filetype.vim"
+
 > au BufRead,BufNewFile *.dfg set filetype=dfg
