@@ -12,6 +12,7 @@ syn keyword languageKeywords begin_problem end_problem list_of_descriptions end_
 syn keyword descriptionKeywords name author version logic status description date
 
 syn match strings '{\*.*\*}'
+syn match formulaName '[a-zA-Z0-9_]\+\()\.\)\@='
 
 syn keyword constants satisfiable unsatisfiable unknown axioms conjectures true false
 
@@ -27,3 +28,4 @@ hi def link strings Constant
 hi def link constants Constant 
 hi def link comment Comment
 hi def link spassFunctions Function 
+hi def link formulaName Constant 
